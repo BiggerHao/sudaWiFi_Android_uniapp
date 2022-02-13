@@ -1,0 +1,43 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "配置账号"
+			}
+		}
+	    ,{
+            "path" : "pages/index/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录网关",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/modify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改账号配置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/void",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "请退出",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
